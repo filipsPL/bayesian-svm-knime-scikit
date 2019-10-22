@@ -2,6 +2,12 @@
 
 Bayesian Optimization of SVM parameters C and gamma, with scikit-learn, to be used in KNIME in Python learner node. Based on the [optimization functions by thuijskens](https://github.com/thuijskens/bayesian-optimization).
 
+Why?
+
+1. Parameter Optimization Loop Node(s) doesn't work as expected for some data. Including Bayesian optimization.
+2. You may want to use scikit-learn instead of KNIME or Weka implementation.
+3. You can tune this workflow to optimize other parameters for many different scikit algorithms.
+
 ## Setup
 
 - In python node please select python2.
